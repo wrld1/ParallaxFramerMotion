@@ -2,13 +2,9 @@
 
 import * as React from "react";
 import { useRef } from "react";
-import Button from "../ui/Button";
-import GradientLink from "../ui/GradientLink";
-import ParagraphText from "../ui/ParagraphText";
 import { AnimatePresence, LayoutGroup, useInView } from "framer-motion";
 import HeroPill from "./HeroPill";
 import { MotionDiv } from "../ui/MotionComponent";
-import { twMerge } from "tailwind-merge";
 import HeroTitle from "./HeroTitle";
 
 const pillVariants = {
@@ -33,7 +29,7 @@ export default function HeroSection() {
 
   return (
     <>
-      <section className="flex flex-col gap-16 min-h-[100dvh] justify-center relative pt-20 md:pt-0 ">
+      <section className="flex flex-col gap-16 min-h-[100dvh] justify-center relative pt-20 lg:pt-12">
         <LayoutGroup>
           <HeroTitle isInView={isInView} />
           <AnimatePresence initial={true}>

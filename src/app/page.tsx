@@ -4,7 +4,7 @@ import MainContent from "@/components/MainContent";
 
 export default function Home() {
   return (
-    <div className="min-h-full pt-4 md:pt-8 pb-[65px] container">
+    <div className="min-h-full pt-4 pb-[65px] container">
       <Header />
       <main className="min-h-full flex-grow flex flex-col items-center justify-center">
         <MainContent />
