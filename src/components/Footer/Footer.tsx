@@ -14,7 +14,7 @@ export default function Footer() {
           Buy Salt Ai
         </GradientLink>
       </div>
-      <div className="flex justify-between pt-6">
+      <div className="flex justify-evenly md:justify-between pt-6">
         <div className="flex gap-4 items-center justify-center">
           <Image
             src="/img/TelegramLogo.png"
@@ -31,7 +31,7 @@ export default function Footer() {
             style={{ height: "auto" }}
           />
         </div>
-        <div className="flex gap-8 items-center justify-center">
+        <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
           <FooterLink href="/">Terms of use</FooterLink>
           <FooterLink href="/">Privacy policy</FooterLink>
           <FooterLink href="/">Cookie policy</FooterLink>

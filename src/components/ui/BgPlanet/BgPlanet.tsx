@@ -13,8 +13,6 @@ interface BgPlanetProps {
 export default function BgPlanet({ scrollProgress }: BgPlanetProps) {
   const viewportHeight = useWindowDimensions();
 
-  console.log(viewportHeight);
-
   const planetHeight = 500;
 
   const initialTranslateY = viewportHeight - planetHeight;
