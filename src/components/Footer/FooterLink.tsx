@@ -14,7 +14,7 @@ export default function FooterLink({
   return (
     <Link
       href={href}
-      className="text-xs text-[#e4e3e3] hover:text-white backdrop-blur-sm p-1 md:p-0 md:backdrop-blur-none p-1"
+      className="text-xs text-[#e4e3e3] hover:text-white backdrop-blur-sm p-1 md:p-0 md:backdrop-blur-none"
       {...rest}
     >
       {children}
